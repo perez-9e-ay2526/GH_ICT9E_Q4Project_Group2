@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q4 Project</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+    <br>
+    <details ontoggle="alert('CREDENTIALS: \nUsername: Gabrielle Zarafa Liwag \nPassword: WeLoveICT!')">
+        <summary class="btn btn-sm btn-outline-dark m-3"> View Login Help</summary>
+        <p class="small text-dark m-3"><span class="bg-light">Enter the credentials shown in the alert box.<span></p>
+    </details>
+
+    <div class="container bg-dark text-light rounded-5 w-50 p-5 mt-4 shadow-lg">
+
+        <div class="text-center">
+            <img src="school.png" alt="Logo" id="index">
+        </div>
+
+        <h1 class="text-center">Student Log in</h1><br><br>
+
+        <label>Username</label>
+        <input type="text" class="form-control rounded-3" id="usernameInput">
+        <br>
+
+        <label>Password</label>
+        <input type="password" class="form-control rounded-3" id="passwordInput">
+        <br>
+
+        <div class="form-check form-switch">
+            <input type="checkbox" class="form-check-input">
+            <label class="form-check-label"><i>Stay logged in</i></label>
+            <br>
+        </div>
+
+        <br>
+
+        <div class="text-center">
+            <button class="btn btn-info" onclick="loginCheck()"> Log in</button>
+            <button class="btn btn-secondary" onclick="window.location.reload()"> Cancel</button>
+        </div>
+
+    </div>
+    <br>
+
+
+
+    <br>
+
+    <script src="proj.js"></script>
+
+</body>
